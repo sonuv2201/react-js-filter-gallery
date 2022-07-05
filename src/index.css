@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.galleryItem img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.galleryContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.galleryWrapper {
+  padding: 5% 10%;
+}
+
+.filterItem ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.filterItem ul button {
+  background: #3d93b9;
+  color: #fff;
+  padding: 8px 46px;
+  text-transform: uppercase;
+  border: navajowhite;
+  font-size: 17px;
+  border-radius: 50px;
+}
+
+.filterItem ul button:hover {
+  background: #222;
+  cursor: pointer;
+}
+
+.galleryItem img {
+  border-radius: 15px;
+}
