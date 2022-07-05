@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Live Demo
 
-https://youtu.be/kkNnb-urQ7c?t=1386
+https://youtu.be/kkNnb-urQ7c
 
 ## Available Scripts
 
